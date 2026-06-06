@@ -1,6 +1,9 @@
 const Home = () => {
   return (
-    <div className='flex items-center rounded bg-blue-500 p-4 text-white'>Welcome to Nesxt.js</div>
+    <>
+      <h1 className='font-inter text-4xl'>Body text</h1>
+      <h1 className='font-space-grotesk text-4xl'>Heading</h1>
+    </>
   );
 };
 
